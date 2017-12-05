@@ -1,0 +1,327 @@
+	
+body {
+	background-color:#fffced;
+	margin: 7%;
+
+	
+}
+
+*{
+	box-sizing:border-box;
+}
+
+.navbar{
+	display:flex;
+	width: 100%;
+	height: 4rem;
+	/*align-items: center;*/
+
+}
+
+.navbar a{
+	flex:1;
+	text-decoration: none;
+	color: #fffced;
+	background-color: #290a03;
+	text-align: center;
+	height: 3rem;
+	border: 2px solid white;
+	font-size: 120%;
+	font-family: 'Julius Sans One', sans-serif;
+	padding: 1%;
+
+	
+}
+
+a:hover{
+	background-color: #fffced;
+	color:#290a03;
+	border: 2px solid black;
+}
+
+
+.companyname{
+	/*background-image: url(imageheader2.jpg);*/
+	/*background-repeat: no-repeat;*/
+	width: 75%;
+	height: 15rem;
+	border: 2px solid black;
+	background-color: #fffced;
+	/*background-color:#ffefe4;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+
+}
+
+.companyname img {
+	width: 14rem;
+	height: 14rem;
+}
+
+.companyname h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 8rem;
+	color:#161515; /*#290a03;*/
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+.container-header{
+	height: 7rem;
+	width: 100%;
+	background-color: #290a03;
+	margin-top: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	margin-bottom: 4rem;
+}
+
+.container-header h1{
+	font-family: 'Julius Sans One', sans-serif;
+	color:#d4ead9;
+}
+
+
+.container img {
+	height: 18rem;
+	width: 18rem;
+	border-radius: 8px;
+}
+
+.header {
+
+	background-image:url(heart.jpg);
+	background-position: 25% 75%;
+	height: 35rem;
+	width: 100%;
+	/*background-color:#ffefe4;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header2 {
+
+	background-image:url(heart.jpg);
+	background-position: 55% 59%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 25rem;
+	width: 100%;
+	/*background-color:#ffefe4;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+
+	.pricing{
+
+
+		width: 100%;
+		background-color: #290a03;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+	}
+
+	
+	.theme .container{
+
+		height: 98%;
+		width: 98%;
+		background-color:#ffefe4;
+		display: flex;
+		flex-direction: column;
+		margin:2px;
+		border-radius: 3px;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		border: 1px solid #4f4f42;
+		padding-bottom: 5%;
+
+	}
+
+
+	
+
+
+	.pricing .container{
+
+		height: 28rem;
+		background-color:#ffefe4;
+		display: flex;
+		flex-direction: column;
+		flex:1 1 360px;
+		margin:4px;
+		border-radius: 10px;
+		justify-content: flex-start;
+		align-items: center;
+		flex-wrap: wrap;
+		padding: 3%;
+		
+
+	}
+	
+
+
+
+	.container h2, .container h1 {
+		font-family: 'Poiret One', cursive;
+		font-size: 300%;
+		margin:5px;
+		padding-bottom: 5%;
+		padding-top: 2%;
+
+	}	
+
+
+	.container li {
+		margin: 5px;
+		font-family: 'PT Sans', sans-serif;
+		font-size: 100%;
+		width: 100%;
+
+	}
+
+	.innercontent{
+		display: flex;
+    	width: 80%;
+    	justify-content: space-around;
+
+	}
+
+
+	.theme {
+		
+		padding: 5%;
+		width: 100%;
+		border: 1px solid #4f4f42;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		flex-direction: column;
+		border-radius: 5px;
+	}
+
+	.wrap {
+		
+		padding: 5%;
+		width: 100%;
+		border: 1px solid #4f4f42;
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		flex-direction: column;
+		border-radius: 5px;
+	}
+
+	.theme-content {
+
+		flex:1;
+		background-color:#ffefe4;
+		margin: 10px; 
+	}
+	
+
+	.header2 h2 {
+		width: 40%;
+		text-align: center;
+		font-family: 'Petit Formal Script', cursive;
+	}
+
+	.header3 h2 {
+		width: 40%;
+		text-align: center;
+		font-family: 'Petit Formal Script', cursive;
+		padding: 10%;
+
+	}
+
+	.header3 {
+		display: flex;
+		justify-content: center;
+	}
+
+	.form h1 {
+
+		font-family: 'Julius Sans One', sans-serif;
+		margin:0;
+
+	}
+
+	.form {
+
+		height: 470px;
+		width: 45%;
+		margin-top: 20px;
+		margin-right: 10px;
+		flex-direction: column;
+		display: flex;
+		border-radius: 5px;
+		padding-left: 10%;
+	}
+
+	input[type=submit] {
+		background-color: #2a0902;
+		color:#fff;
+		padding: 0;
+		border: none;
+		font-weight: bold;
+		font-size: 80%;
+		font-family: 'Julius Sans One', sans-serif;
+		height: 10%;
+	}
+
+	input[type=label] {
+		font-family: 'Julius Sans One', sans-serif;
+		height: 8%;
+	}
+
+	.submit:hover{
+		background-color: #a4541b;
+	}
+
+	.wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	.wrapper .form input {
+		width: 80%;
+		height: 10%;
+		
+	}
+
+	.border {
+		border: 1px solid #4f4f42;
+		padding: 5%;
+		border-radius: 5px;
+	}
+
+	label {
+		margin-top: 10px;
+	}
+
+
+	textarea {
+    width: 80%;
+    height: 150px;
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    border:0.5px solid gray;
+}
+
+
