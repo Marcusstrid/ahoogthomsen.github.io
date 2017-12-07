@@ -11,7 +11,7 @@ Singlepage of the flowercompany Aboreal.
 
 ## Validator results 
 
-HTML Validator result:
+* HTML Validator result:
 
 Document checking completed. No errors or warnings to show.
 
@@ -19,7 +19,7 @@ Used the HTML parser.
 Total execution time 139 milliseconds.
 
 
-CSS Validator result:
+* CSS Validator result:
 
 W3C CSS-valideringsresultat för style.css (CSS nivå 3)
 
