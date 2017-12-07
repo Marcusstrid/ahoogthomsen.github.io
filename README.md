@@ -4,6 +4,13 @@ My project
 Singlepage of the flowercompany Aboreal.
 
 
+
+
+
+
+
+## Validator results 
+
 HTML Validator result:
 
 Document checking completed. No errors or warnings to show.
